@@ -7,8 +7,9 @@
 <ul> id='links'>
   <% @links.each do |link| %>
    <li>
-     title: <%= link.title %>
-     url: <%= link.url %>
+     Title: <%= link.title %>
+     URL: <%= link.url %>
+     Tag: <%= link.tags.map(&:name) %>
    </li>
  <% end %>
 </ul>
