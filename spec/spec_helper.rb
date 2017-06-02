@@ -5,6 +5,7 @@ require 'rspec'
 require 'database_cleaner'
 require_relative '../lib/link.rb'
 require_relative '../app/app.rb'
+require_relative '../lib/tag.rb'
 
 
 
